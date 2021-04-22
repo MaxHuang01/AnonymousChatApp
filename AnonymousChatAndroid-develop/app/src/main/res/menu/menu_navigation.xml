@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_topics"
+        android:title="Topics"
+        android:icon="@drawable/ic_topics"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_account"/>
+
+</menu>
+
+    <!--<menu-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/topics"-->
+    <!--        android:enabled="true"-->
+    <!--        android:icon="@drawable/ic_topics"-->
+    <!--        android:title="Topics"-->
+    <!--        app:cnb_iconTintMode="src_in"-->
+    <!--        app:cnb_iconColor="@color/topics"-->
+    <!--        app:cnb_textColor="@color/topics" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/home"-->
+    <!--        android:enabled="true"-->
+    <!--        android:icon="@drawable/ic_home"-->
+    <!--        android:title="Home"-->
+    <!--        app:cnb_iconTintMode="src_in"-->
+    <!--        app:cnb_iconColor="@color/home"-->
+    <!--        app:cnb_textColor="@color/home" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/profile"-->
+    <!--        android:enabled="true"-->
+    <!--        android:icon="@drawable/ic_account"-->
+    <!--        android:title="Profile"-->
+    <!--        app:cnb_iconTintMode="src_in"-->
+    <!--        app:cnb_iconColor="@color/profile"-->
+    <!--        app:cnb_textColor="@color/profile" />-->
+
+    <!--</menu>-->

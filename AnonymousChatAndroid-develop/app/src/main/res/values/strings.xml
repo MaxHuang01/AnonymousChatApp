@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AnonymousChat</string>
+    <string name="loginText">Connect account below to log in</string>
+    <string name="input_placeholder">Type Message</string>
+
+    <!-- google_web_client_id is the Firebase Web client ID for Google Login integration -->
+    <string name="google_web_client_id">105803746245-5dv45uctg3hilmsvci6rcsmsqaq028j8.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">2620965048172143</string>
+    <string name="fb_login_protocol_scheme">fb2620965048172143</string>
+    <string name="apiBaseUrl">whispering-crag-test.herokuapp.com</string>
+    <string name="apiProtocol">http://</string>
+    <string name="webSocketProtocol">ws://</string>
+
+</resources>

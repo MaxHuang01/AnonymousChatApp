@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A21CF</color>
+    <color name="colorPrimaryDark">#3882D6</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="topics">#EDC8B50D</color>
+    <color name="home">#408DFE</color>
+    <color name="profile">#55B558</color>
+    <color name="profileCircle">#48b3ff</color>
+    <color name="loginBackground">#000000</color>
+    <color name="loginText">#ffffff</color>
+</resources>

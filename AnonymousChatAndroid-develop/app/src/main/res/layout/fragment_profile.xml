@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RemoveProfileButton" />
+
+    <TextView
+        android:id="@+id/ProfileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="ProfileFragment"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userTopics" />
+
+    <Button
+        android:id="@+id/EditInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Edit Information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileTextView" />
+
+    <TextView
+        android:id="@+id/SexualOrientationText"
+        android:layout_width="210dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SOrientLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/SOrientLabel" />
+
+    <TextView
+        android:id="@+id/SOrientLabel"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Sexual Orientation:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserName"
+        tools:text="Sexual Orientation:" />
+
+    <TextView
+        android:id="@+id/UserName"
+        android:layout_width="103dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:text="UserName:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userImageView"
+        tools:text="UserName:" />
+
+    <TextView
+        android:id="@+id/userTopics"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Selected Topics:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderLabel"
+        tools:text="Selected Topics:" />
+
+    <TextView
+        android:id="@+id/userTopicText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/userTopics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/userTopics" />
+
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_width="413dp"
+        android:layout_height="77dp"
+        android:adjustViewBounds="false"
+        android:src="@android:mipmap/sym_def_app_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/UserNameText"
+        android:layout_width="264dp"
+        android:layout_height="25dp"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/UserName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/UserName" />
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="56dp"
+        android:layout_height="24dp"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ageLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toEndOf="@+id/ageLabel" />
+
+    <TextView
+        android:id="@+id/ageLabel"
+        android:layout_width="49dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Age:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SOrientLabel"
+        tools:text="Age:" />
+
+    <TextView
+        android:id="@+id/genderLabel"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="152dp"
+        android:text="Gender:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ageLabel"
+        tools:text="Gender:" />
+
+    <TextView
+        android:id="@+id/genderText"
+        android:layout_width="166dp"
+        android:layout_height="24dp"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/genderLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/genderLabel" />
+
+    <Button
+        android:id="@+id/RemoveProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditInfoButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
